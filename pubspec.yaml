@@ -1,6 +1,6 @@
 name: screen
 description: A Flutter plugin to manage the device's screen on Android and iOS. This is a fork for screen library.
-version: 0.0.6
+version: 0.0.7
 author: Danilo Rêgo <daniloapr0@gmail.com>
 homepage: https://github.com/daniloapr/flutter_screen
 
