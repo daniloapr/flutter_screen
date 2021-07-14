@@ -14,7 +14,6 @@ To use this plugin, add the dependency on your pubspec:
   screen:
     git:
       url: https://github.com/daniloapr/flutter_screen.git
-      ref: master
 ```
 
 Make sure you add the following permissions to your Android Manifest
