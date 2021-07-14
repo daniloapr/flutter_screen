@@ -1,4 +1,5 @@
 # Screen
+
 A Flutter plugin to manage the device's screen on Android and iOS.
 
 This is a fork from [Screen](https://github.com/clovisnicolas/flutter_screen) with Null Safety support added.
@@ -6,6 +7,7 @@ This is a fork from [Screen](https://github.com/clovisnicolas/flutter_screen) wi
 This was not well tested yet, so, I do not recommend using it for production apps.
 
 ## Usage
+
 To use this plugin, add the dependency on your pubspec:
 
 ```
@@ -16,12 +18,14 @@ To use this plugin, add the dependency on your pubspec:
 ```
 
 Make sure you add the following permissions to your Android Manifest
+
 ```
 <uses-permission android:name="android.permission.WAKE_LOCK" />
 ```
 
 ## Example
-``` dart
+
+```dart
 // Import package
 import 'package:screen/screen.dart';
 
