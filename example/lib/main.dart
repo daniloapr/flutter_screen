@@ -41,10 +41,12 @@ class _MyAppState extends State<MyApp> {
                 new Checkbox(
                     value: _isKeptOn,
                     onChanged: (bool? b) {
-                      Screen.keepOn(b);
-                      setState(() {
-                        _isKeptOn = b;
-                      });
+                      if (b != null) {
+                        Screen.keepOn(b);
+                        setState(() {
+                          _isKeptOn = b;
+                        });
+                      }
                     })
               ]),
           new Text("Brightness :"),
